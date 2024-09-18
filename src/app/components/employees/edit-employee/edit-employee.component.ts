@@ -59,7 +59,7 @@ export class EditEmployeeComponent {
     })
   }
   cancelEdit() {
-    this.router.navigate(['/employees']);
+    this.router.navigate(['employees']);
   }
   
 }
