@@ -35,3 +35,10 @@ Affected requests:
 Service method
 /core/api/Quote/fw/SaveQuote
 
+Nysa - Nysa: Failure rate increase
+
+Problem P-241053016
+
+from Oct 28 22:33 - Oct 28 22:40 for 7 minutes.
+
+This Service has been identified as root cause.
