@@ -27,3 +27,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
 
+
+
+Exception:
+
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException
+
+Message:
+
+IDX***** Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. Number of keys in Configuration: '0'. Exceptions caught: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX***** for details.
