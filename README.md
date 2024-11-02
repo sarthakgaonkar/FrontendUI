@@ -28,3 +28,26 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
+Failure rate increase
+The error rate increased to 12.84 %.
+
+Service method /apigateway/health/Agent/GetRenewalCount has a failure rate increase.
+
+Affected requests:
+20 /min
+
+Service method:
+/apigateway/health/Agent/GetRenewalCount
+
+RCA:
+apigateway/health/Elevate/ElevateMasterData
+502 - Bad Gateway
+Caused by exception:
+System.Net.Http.HttpRequestException
+
+/health/api/Elevate/SaveEditQuoteV1
+
+Exception: Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException
+message: An error occurred while sending the request.
+
+
