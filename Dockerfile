@@ -11,7 +11,7 @@ RUN npm install --force
 
 COPY . /app
 
-# Generate the build of the application test commit- new push
+# Generate the build of the application test commit- new push - blue
 RUN npm run build 
 
 
